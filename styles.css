@@ -1,0 +1,463 @@
+/* Styles from index.html */
+body{
+    background-image:url(picture/FONDCOLOR5.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+margin: 40px 0px 40px 40px;
+}
+.logo{
+color: rgb(252, 248, 248);
+animation-name: logo;
+animation-duration: 0.8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+.logo1{
+color: #f9e555;
+animation-name: logo1;
+animation-duration: 0.8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes logo {
+    
+    from{
+        color: rgb(248, 244, 244);
+    }
+    to{
+        color: #f7d800;
+    }}
+    @keyframes logo1 {
+    
+    from{
+        color: #f7d800;
+    }
+    to{
+        color: rgb(249, 248, 248);
+    }}
+    .lien a{color: rgb(7, 7, 7);
+    font-weight: 200;
+    margin-left: 20px;
+    position: relative;
+    bottom: 60px;
+    font-size: 15px;
+    background-color: rgb(251, 251, 251);
+    padding: 7px 7px 7px 7px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.lien{
+   margin-left: 1100px;
+}
+a:hover{
+    opacity: 0.5;
+}
+.text{
+   margin-top: 60px;
+   width: 500px;
+   margin-left: 50px;
+   text-transform: capitalize;
+   color: rgb(255, 255, 255);
+}
+.text{
+   font-size: 17px;
+   font-weight: bold;
+}
+span{
+    font-size: 30px;
+    color: #f7d800;
+}
+.image{
+    position: absolute;
+    top: 30%;
+    right: 90px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    animation-name: image;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes image {
+    
+from{
+    top: 25%;
+}
+to{
+    top: 20%;
+}}
+
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.réseau{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.réseau img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: larger;
+    margin-right: 20px;
+    border: none;   
+}
+
+/* Styles from home.HTML */
+/* body selector for home.HTML is duplicated, will be overridden by the one for index.html if not specific enough */
+/* Consider using a class on body for home.HTML if different background is needed */
+/* For now, assuming the white background for home.HTML is desired and will be handled by specificity or later adjustments */
+.head img{
+    height: 350px;
+    width: 80%;
+    margin-left: 130px;
+ 
+}
+.head{
+    margin-top: 0px;
+}
+
+
+.cr{
+font-size: 40px;
+font-weight: 700;
+margin-left: 42%;
+margin-bottom: 60px;
+margin-top: 60px;
+padding: 10px;
+border-radius: 20px;
+border: none;
+background-color: #f9e555;
+}
+.crA{
+font-size: 40px;
+font-weight: 700;
+margin-left: 38%;
+margin-bottom: 60px;
+margin-top: 60px;
+padding: 10px;
+border-radius: 20px;
+border: none;
+background-color: #f9e555;
+}
+.crA:hover{
+box-shadow: 8px 8px 5px black;
+background-color: #ffffff;
+}
+.chau img{
+
+border-radius: 30px;
+width: 350px;
+height: 500px;
+transition: 0.3s;
+}
+.cr:hover{
+box-shadow: 5px 5px 5px black;
+background-color: #ffffff;
+}
+/* .chaussures was already defined, new styles will be merged by the browser or override based on specificity.
+   The new definition from product grid will likely take precedence if it's more specific or loaded later.
+   For clarity, it's better to have one definition or ensure they don't conflict.
+   The new .chaussures definition is more detailed for a grid.
+*/
+.chaussures{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.chau img:hover{
+    width: 450px;
+    height: 600px;
+    
+}
+/* Styles from co.html */
+/* body selector duplicated again. */
+/* h1 selector duplicated. */
+/* .logo1, .logo2, @keyframes logo2, @keyframes logo1 duplicated from index.html styles. */
+/* header, nav ul, nav ul li, nav a, nav a:hover duplicated. */
+/* .kbira, .kbi, .p3, .boton, .boton:hover duplicated from coaching.html styles. */
+/* section, .abc, .p4, @keyframes titre duplicated. */
+/* .video-container, .video-container iframe, .video-container:hover iframe, .localisation duplicated. */
+/* .histoire2, .histoire2::after, .histoire2 h2, .histoire2 p, .histoire2 img duplicated. */
+/* footer duplicated. */
+
+/* Styles from coaching.html */
+/* p span, p, .P2, @keyframes p2, .p1, @keyframes pspan, @keyframes p1 duplicated. */
+/* .mot, .mott, .mottt, .motttt, .mot img, .phrase duplicated. */
+/* .kbira, .kbi, .p3, .boton, .boton:hover, .lien duplicated. */
+/* .wrapper, .zone, .card, .card > .ro, .card > .ro > .icon, .card > .ro > .description, */
+/* .description p, .description h4, input, input:checked + label, input:checked + label .description, */
+/* .card[for="c1"] to .card[for="c4"] duplicated. */
+/* .p4, @keyframes p4 duplicated. */
+/* .comments, .comment, .comment-author-image, .comment-content, .comment-meta, .comment-author, .comment-date duplicated. */
+/* #offres, .offer, .offer:hover, .offer img, .footer duplicated. */
+
+/* Styles from login.html */
+/* body selector duplicated. */
+/* .image, .image img duplicated. */
+/* form, label, input, input[type="submit"], input[type="submit"]:hover duplicated. */
+
+
+/* home.HTML styles - Product Grid - These are the new styles added in the previous step */
+.chaussures { /* This definition will override the previous simpler .chaussures if it applies to the same element */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 20px; 
+    padding: 20px; /* Added for overall container spacing */
+}
+.chau {
+    flex-basis: calc(33.333% - 40px); /* Adjusted for 20px gap on each side effectively */
+    box-sizing: border-box; 
+    border: 1px solid #eee; 
+    padding: 15px; /* Slightly increased padding */
+    text-align: center; 
+    margin-bottom: 20px; /* Spacing for items when they wrap */
+    background-color: #f9f9f9; /* Light background for product items */
+    border-radius: 8px; /* Rounded corners for product items */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+.chau img {
+    max-width: 100%; 
+    height: auto; 
+    border-bottom: 1px solid #ddd; /* Separator line below image */
+    margin-bottom: 10px; /* Space between image and any text below */
+    padding-bottom: 10px; /* Space for the border-bottom */
+}
+/* Adjustments for the buttons on home.HTML if needed */
+.crA, .cr { /* Assuming .crA is 'supplements' and .cr is 'Equipment' button */
+    display: block; /* Make buttons take full width available */
+    width: 50%; /* Or a specific width */
+    margin: 30px auto; /* Center buttons with more vertical margin */
+    padding: 15px; /* Larger padding */
+    font-size: 28px; /* Larger font size */
+}
+
+/* Basic Responsive Styles */
+
+/* For tablets and smaller desktops */
+@media (max-width: 992px) {
+    .lien { /* Navigation links container on index.html and other pages */
+        margin-left: 0; /* Remove large left margin */
+        text-align: center; /* Center the links */
+        position: static; /* Reset position */
+        bottom: auto;
+        padding-bottom: 20px; /* Add some space below nav */
+    }
+    .lien a {
+        display: block; /* Stack links vertically */
+        margin: 10px auto; /* Add vertical margin and center */
+        width: 80%; /* Give them some width */
+    }
+    .text { /* Welcome text on index.html */
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .image { /* Image on index.html */
+        position: static; /* Allow it to flow in document */
+        width: 60%;
+        height: auto;
+        margin: 20px auto; /* Center it */
+        right: auto;
+        top: auto;
+        animation: none; /* Disable animation on small screens if it causes layout issues */
+    }
+    .réseau { /* Social media icons on index.html */
+        justify-content: center; /* Center icons */
+        margin-left: 0;
+    }
+
+    /* Shop Page Adjustments - home.HTML */
+    .chau { /* Product items on home.HTML */
+        flex-basis: calc(50% - 20px); /* 2 items per row for tablets */
+    }
+    /* .crA, .cr buttons on home.HTML - already adjusted by previous rule, this is fine */
+
+    /* Coaching Page - coaching.html - Trainer cards */
+    .zone { /* Container for trainer cards */
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center cards */
+        height: auto; /* Adjust height */
+    }
+    .card { /* Trainer card */
+        width: 80% !important; /* Override inline or specific styles if necessary */
+        margin-bottom: 20px;
+    }
+    input:checked + label.card { /* Expanded trainer card */
+         width: 90% !important;
+    }
+    /* .kbira .kbi refers to the large hero text section on coaching.html */
+    .kbira .kbi { /* Large text on coaching page, assuming .kbira is parent */
+        margin-left: 10%; /* Adjust positioning */
+        font-size: 60px;
+    }
+    /* .kbira .p3 refers to the subtext in hero on coaching.html */
+    .kbira .p3 { /* Text below .kbi on coaching page */
+        margin-left: 10%;
+    }
+    /* Specific .lien for coaching page contact button if it's distinct */
+    /* This targets the .lien specifically inside .kbira on coaching.html */
+    .kbira > .lien { 
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: center;
+        display: block; 
+        width: auto; /* Let it size by content or specific width below */
+        padding-bottom: 0; /* Reset from general .lien rule */
+    }
+     .kbira > .lien .boton { /* Ensure button within this specific lien is targeted */
+        width: auto; /* Or a specific percentage like 50% */
+        display: inline-block;
+    }
+
+
+    /* co.html - Gym page */
+    /* .kbira .kbi for co.html might need a more specific selector if its .kbira is different
+       but if it's the same class and structure as coaching.html, the above rule might apply.
+       Assuming the co.html .kbira .kbi is distinct or needs its own rule: */
+    .co-page-hero .kbi { /* Example if co.html .kbira had an id or distinct class 'co-page-hero' */
+        font-size: 40px; 
+        padding-top: 40px;
+    }
+    .co-page-hero .p3 { 
+        font-size: 16px;
+    }
+    /* If co.html's .kbira is the same class as coaching.html, the above rules for .kbira .kbi and .kbira .p3 will apply.
+       If they are meant to be different, co.html's .kbira needs a more specific class or ID.
+       For now, let's assume they might share styles or need more specific selectors if they differ.
+    */
+    .histoire2 img { /* Image in history section on co.html */
+        float: none; /* Disable float */
+        display: block; /* Make it a block to center it */
+        margin: 0 auto 15px auto; /* Center image */
+        width: 50%; /* Reduce width */
+    }
+    .histoire2 h2 { /* History section heading on co.html */
+        margin-left: 0; /* Remove margin */
+        text-align: center; /* Center heading */
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+    /* General h1 and logo adjustments */
+    h1.logo, .logo { /* Main logo on index.html, home.HTML */
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 24px; /* Adjust main logo font size */
+    }
+     h1.logo .logo1 { /* Span inside logo KLB.FITNESS */
+        font-size: 28px; /* Adjust span font size */
+    }
+    /* For co.html specific logo (KLB.Fitness salle) */
+    header h1.logo1 { /* This targets the h1 with class logo1 on co.html (which is actually the main heading) */
+        font-size: 20px; /* Adjust if necessary */
+        text-align: center;
+        margin-left:0; /* Ensure centering */
+        margin-right:0;
+    }
+    header h1.logo1 .logo2 { /* The "KLB." part */
+        font-size: 24px; /* Adjust if necessary */
+    }
+
+
+    .text { /* Welcome text on index.html */
+        font-size: 14px; /* Adjust font size for readability */
+    }
+    .text span { /* Highlighted span in welcome text */
+        font-size: 24px;
+    }
+    .image { /* Image on index.html */
+        width: 80%;
+    }
+
+    /* Shop Page Adjustments - home.HTML */
+    .chau { /* Product items on home.HTML */
+        flex-basis: calc(100% - 20px); /* 1 item per row for mobiles */
+    }
+    .crA, .cr { /* Buttons on home.HTML */
+        width: 90%;
+        font-size: 20px;
+    }
+    .head img { /* Header image on home.HTML */
+         width: 100%;
+         margin-left: 0;
+    }
+
+
+    /* Coaching Page - coaching.html */
+    .kbira .kbi { /* Large text on coaching page hero */
+        margin-left: 5%;
+        font-size: 40px;
+    }
+     .kbira .p3 { /* Text below .kbi on coaching page hero */
+        margin-left: 5%;
+        font-size: 14px;
+    }
+    /* .lien for contact us on coaching page, ensuring it's distinct if needed */
+    .kbira > .lien { /* contact us button container on coaching.html hero */
+        width: 90%; /* Make container take more width */
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-bottom was reset for tablet, ensure it's fine or add back if needed */
+    }
+    .kbira > .lien .boton { /* The button itself */
+        width: 100%; /* Make button full width of its container */
+        font-size: 16px;
+    }
+
+    .mot { /* 4 icon categories on coaching.html */
+        flex-direction: column;
+        align-items: center;
+    }
+    .mot > div {
+        margin-bottom: 15px; /* Space between stacked items */
+    }
+    .mottt, .mott, .motttt {
+        margin-left: 0; margin-right: 0; text-align: center;
+    }
+
+
+    /* co.html - Gym page */
+    /* Assuming .kbira .kbi on co.html should be different from coaching.html's .kbira .kbi */
+    /* If co.html has a unique parent class for its hero, use that. e.g., .co-hero .kbi */
+    /* For now, this rule might conflict or be overridden if structure is identical to coaching page. */
+    /* To be safe, let's assume a more specific selector if co.html's hero is different, */
+    /* or accept that coaching.html's .kbira .kbi styles might apply if classes are the same. */
+    /* If co.html's .kbira is the same as coaching, this rule will be overridden by the coaching one above. */
+    /* Let's make it slightly more specific by assuming co.html's body might get a class later, or a parent div. */
+    /* For now, if the .kbira structure is identical, the coaching rule for .kbira .kbi will apply. */
+    /* To ensure co.html specific changes: */
+    /* Let's assume co.html's .kbira is distinct or we need to be more careful. */
+    /* Given the current CSS, the .kbira .kbi rule from coaching will apply if co.html uses the same class. */
+    /* If co.html's "DÉPASSE-TOI" text needs different styling, it needs a more specific selector. */
+    /* For now, the coaching rule will apply. */
+
+    .video-container iframe, .localisation { /* Embedded video and map on co.html */
+        height: 300px; /* Adjust height */
+    }
+    /* .p4 for co.html section titles (video, Localisation, Histoire) */
+    .abc .p4 { /* make selector more specific to co.html if .p4 is used elsewhere with different needs */
+        font-size: 24px !important; 
+    }
+    @keyframes titre { /* Adjust animation for co.html's .p4 if needed */
+        from { font-size: 24px; color: rgb(248, 244, 244); }
+        to { font-size: 24px; color: #000000; }
+    }
+}
